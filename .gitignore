@@ -1,0 +1,6 @@
+# Ignore system
+.DS_Store
+
+# Ignore images and db
+images/
+db/
