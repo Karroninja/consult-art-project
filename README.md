@@ -1,7 +1,8 @@
 # Jeanette Adolfssons Konstverk
 
 Kund önskar webbsida och visuellt uttryck för att visa och dela sin konst på ett samlat och effektivt sätt.
-Det här projektet innehåller HTML, CSS och JavaScript-filer för att skapa webbsidan. Utvecklare av webbsidan: Karoline Lindroos, UX/UI designer: Johanna Christensson.
+Det här projektet innehåller HTML, CSS och JavaScript-filer för att skapa webbsidan. <br>
+Utvecklare av webbsidan: Karoline Lindroos, UX/UI designer: Johanna Christensson.
 
 ## Mappstruktur
 
