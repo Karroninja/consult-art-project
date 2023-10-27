@@ -1,6 +1,7 @@
 # Jeanette Adolfssons Konstverk
 
-Kund önskar webbsida och visuellt uttryck för att visa och dela sin konst på ett samlat och effektivt sätt. Det här projektet innehåller HTML, CSS och JavaScript-filer för att skapa webbsidan.
+Kund önskar webbsida och visuellt uttryck för att visa och dela sin konst på ett samlat och effektivt sätt.
+Det här projektet innehåller HTML, CSS och JavaScript-filer för att skapa webbsidan. Utvecklare av webbsidan: Karoline Lindroos, UX/UI designer: Johanna Christensson.
 
 ## Mappstruktur
 
@@ -30,6 +31,6 @@ project/ <br>
 
 ## Hur man använder
 
-1. Klona projektet till din lokala dator: --- Detta fyller jag i sen när ett gitrepo är skapat! ---
+1. Klona projektet till din lokala dator: https://github.com/Karroninja/consult-project
 
 2. Öppna `index.html` i din webbläsare för att visa webbsidan.
