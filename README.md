@@ -6,28 +6,27 @@ Kund önskar webbsida och visuellt uttryck för att visa och dela sin konst på 
 
 Här är en översikt över projektets mappstruktur:
 
-project/<br>
-|-- index.html
-|-- subpages/
-| |-- about.html
-|-- css/
-| |-- style.css
-| |-- variables.css
-| |-- typography.css
-| |-- state.css
-| |-- navbar.css
-| |-- footer.css
-| |-- init.css
-|-- js/
-| |-- script.js
-|-- db/
-| |-- database.json
-|-- images/
-...
-|-- fontawesome/
-| |-- all.min.css
-
-|-- README.md
+project/ <br>
+|-- index.html <br>
+|-- subpages/ <br>
+| |-- about.html <br>
+|-- css/ <br>
+| |-- style.css <br>
+| |-- variables.css <br>
+| |-- typography.css <br>
+| |-- state.css <br>
+| |-- navbar.css <br>
+| |-- footer.css <br>
+| |-- init.css <br>
+|-- js/ <br>
+| |-- script.js <br>
+|-- db/ <br>
+| |-- database.json <br>
+|-- images/ <br>
+... <br>
+|-- fontawesome/ <br>
+| |-- all.min.css <br>
+|-- README.md <br>
 
 ## Hur man använder
 
