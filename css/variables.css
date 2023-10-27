@@ -1,0 +1,10 @@
+/* ---- CSS variables ---- */
+:root {
+    --background-color: #333;
+
+    --base-line-height: 1.4;
+    /* genom att sätta fonten till storleken em, tillåter vi användaren att kunna ändra via webbläsarens egna fontstorlekar. */
+    --base-font-size: 1em;
+    /* magic number används för att få ett enhetligt avstånd mellan styckena, en grundenhet */
+    --magic-number: calc(var(--base-line-height) * var(--base-font-size));
+}

@@ -1,0 +1,15 @@
+/**
+ * Initiate the CSS base and reset/normalize some items.
+ */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, html {
+    margin: 0;
+}
