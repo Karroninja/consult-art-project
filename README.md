@@ -6,7 +6,7 @@ Kund önskar webbsida och visuellt uttryck för att visa och dela sin konst på 
 
 Här är en översikt över projektets mappstruktur:
 
-project/
+project/<br>
 |-- index.html
 |-- subpages/
 | |-- about.html
