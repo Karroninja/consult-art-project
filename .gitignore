@@ -1,6 +1,11 @@
 # Ignore system
 .DS_Store
 
+<<<<<<< HEAD
 # Ignore images and db
 images/
 db/
+=======
+# Ignore db
+db/
+>>>>>>> 1ff9898 (edited some files)
