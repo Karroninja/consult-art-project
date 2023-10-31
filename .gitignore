@@ -2,10 +2,7 @@
 .DS_Store
 
 <<<<<<< HEAD
-# Ignore images and db
+# Ignore images, db, fontawesome
 images/
 db/
-=======
-# Ignore db
-db/
->>>>>>> 1ff9898 (edited some files)
+fontawesome/
