@@ -6,7 +6,7 @@ Fullstack-utvecklare: Karoline Lindroos, UX/UI designer: Johanna Christensson.
 
 ## Syfte
 
-Denna GitHub-repositorium är endast avsett att fungera som en showcase för intressenter, och det är därför inte möjligt att ladda ner eller använda den för externa ändamål.
+Denna GitHub-repositorium är endast avsett att fungera som en showcase för entusiaster, och det är därför inte möjligt att ladda ner eller använda den för externa ändamål.
 
 ## Mappstruktur
 
