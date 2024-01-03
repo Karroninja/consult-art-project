@@ -1,0 +1,73 @@
+/*
+ * Style for the about and press page
+ */
+
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 3rem;
+}
+
+.about .wrapImg {
+    height: 700px;
+    padding: 4em 0 0 4em;
+}
+
+.about .wrapImg img {
+    height: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.press .wrapImg {
+    padding: 4em 4em 0 0;
+}
+
+.press .wrapImg img {
+    -webkit-transform: unset;
+    transform: unset;
+}
+
+.wrapInfo {
+    flex-direction: column;
+    height: 100%;
+    padding: 4em;
+}
+
+.wrapInfo p {
+    user-select: none;
+}
+
+.about img {
+    height: 100%;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    width: 100%;
+    gap: 3rem;
+    padding: 1em 4em;
+}
+
+.courses div {
+    padding: 1em;
+    border: 1px solid black;
+}
+
+.courses div:not(:first-child) {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s;
+}
+
+.wrap-press-img {
+    width: 100%;
+    padding: 0 4em;
+}
+
+.wrap-press-img img {
+    width: 100%;
+}

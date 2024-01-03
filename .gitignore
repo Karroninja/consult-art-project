@@ -2,7 +2,11 @@
 .DS_Store
 
 <<<<<<< HEAD
-# Ignore images, db, fontawesome
-images/
+# Ignore images, db, fontawesome, node-modules, packages
+public/images/
 db/
 fontawesome/
+node_modules/
+package.json
+package-lock.json
+.vscode/

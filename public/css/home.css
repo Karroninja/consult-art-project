@@ -1,0 +1,99 @@
+/*
+ * Style for the homepage
+ */
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+    position: relative;
+}
+
+.gallery .vertical {
+    width: 47.5% !important;
+}
+
+.gallery .clickImg {
+    width: 100%;
+    height: calc(100vh - 3rem);
+    position: relative;
+}
+
+.gallery a {
+    cursor: default;
+}
+
+.gallery .clickImg p {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    color: white;
+}
+
+.gallery div img.art {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.gallery div.art-popup {
+    position: fixed;
+    z-index: 10;
+    width: calc(100vw - (var(--nav-footer-width) * 2)) !important;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.8);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.25s, opacity 0.25s;
+}
+
+.gallery div.art-popup.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.gallery div.art-popup.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.gallery div.art-popup picture {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery div.art-popup img {
+    width: 80%;
+}
+
+.gallery div.art-popup.vertical img {
+    width: 40%;
+}
+
+.gallery div.art-popup .art-popup-wrap-title-cross {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.gallery div.art-popup .art-popup-wrap-title-cross p {
+    margin: 0;
+}
+
+.gallery div.art-popup .fa-circle-xmark {
+    font-size: 2em;
+    cursor: pointer;
+}

@@ -1,0 +1,169 @@
+/*---- settings for mobile and basic responsivity --- */
+
+@media (max-width: 1200px) and (min-width: 768px) {
+    section.about {
+        gap: unset;
+    }
+
+    section.about .wrapInfo,
+    section.about .wrapImg,
+    div.wrap-press-img {
+        padding: 2em;
+    }
+
+    div.courses {
+        padding: 1em 2em;
+    }
+
+    section.about .wrapImg {
+        height: 600px;
+    }
+
+    div.gallery {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    section.about .wrapInfo,
+    section.about .wrapImg,
+    div.wrap-press-img {
+        padding: 1em;
+    }
+
+    div.courses {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    div.gallery {
+        gap: 1rem;
+    }
+
+    div.gallery div.art-popup img {
+        width: 90%;
+    }
+
+    div.gallery div.art-popup.vertical img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 768px) {
+    section.about .wrapImg {
+        height: 500px;
+    }
+}
+
+@media (max-width: 850px) {
+    section.about {
+        flex-direction: column;
+    }
+
+    section.press .wrapInfo {
+        order: 2;
+    }
+
+    div.gallery div.art-popup.vertical img {
+        width: 60%;
+    }
+}
+
+/*  --- mobile settings --- */
+@media (max-width: 767px) {
+
+    /* ---- Start inställningar för hamburgarmenyn ---- */
+    nav.nav {
+        width: 0%;
+        transition: all 1s;
+    }
+
+    nav.nav ul {
+        padding: 0 0 4em 4em;
+    }
+
+    nav.nav ul li {
+        justify-content: unset;
+    }
+
+    nav.nav ul li a {
+        transform: unset;
+        margin: unset;
+    }
+
+    #nav-instagram {
+        display: flex;
+    }
+
+    .fa-instagram {
+        margin: 0;
+    }
+    /* ---- Slut inställningar för hamburgarmeny ---- */
+
+    main.main {
+        padding: 0;
+    }
+
+    div.gallery .clickImg {
+        height: unset;
+    }
+
+    div.gallery .clickImg.vertical,
+    div.gallery div.art-popup {
+        width: unset !important;
+    }
+
+    footer.right-side-footer {
+        display: none;
+    }
+
+    footer.footer-main .ja-copyright {
+        display: flex;
+        margin: 0;
+    }
+
+    section.about .wrapImg {
+        height: 600px;
+        padding: unset;
+        margin: 0 auto;
+    }
+
+    div.courses {
+        padding: 1em;
+        gap: 1rem;
+    }
+}
+
+/*  --- settings for smaller mobile --- */
+@media (max-width: 500px) {
+    footer.footer-main p {
+        font-size: 0.8em;
+    }
+
+    section.about .wrapImg {
+        height: 500px;
+    }
+
+    section.about.press .wrapImg {
+        height: 400px;
+    }
+
+    div.gallery {
+        gap: 0.2rem;
+    }
+
+    div.courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    div.courses div {
+        padding: 0.5em;
+    }
+}
+
+/* --- Mobile settings for smaller screen --- */
+@media (max-width: 440px) {
+    div.gallery div.art-popup.vertical img {
+        width: 90%;
+    }
+}
